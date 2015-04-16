@@ -1,0 +1,2 @@
+// xiii. Obtener un listado de todos los documentos de la colección que contenga los datos de los socios que posean el atributo codigoInterno, formateados de manera organizada (pretty).
+db.socios.find({ codigoInterno: { $exists: true } }).pretty();

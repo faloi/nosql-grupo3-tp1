@@ -1,0 +1,2 @@
+//xi. Idem consulta anterior, pero sólo informar la cantidad de documentos que cumplen con la condición.
+db.socios.find({ nro_socio: { $gt: 3 }, "cuotas.fecha_emision": { $gte: new Date(2014, 1, 1) } }).count();

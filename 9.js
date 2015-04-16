@@ -1,0 +1,2 @@
+// ix. Obtener los datos en formato organizado (pretty) de los documentos cuyo nro de socio >3 y la fecha de emisión de la cuota sea mayor o igual a “01/01/2014”.
+db.socios.find({ nro_socio: { $gt: 3 }, "cuotas.fecha_emision": { $gte: new Date(2014, 1, 1) } }).pretty();

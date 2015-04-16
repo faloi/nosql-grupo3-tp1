@@ -1,0 +1,2 @@
+// xiv. Obtener los documentos del punto anterior ordenados en forma descendente por apellido y por nombre.
+db.socios.find({ codigoInterno: { $exists: true } }).sort({ apellido: -1, nombre: -1 }).pretty();

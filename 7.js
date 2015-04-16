@@ -1,0 +1,2 @@
+// vii. Obtener el nro de socio, nombre, apellido, dni y deportes de todos los documentos con todos sus atributos donde las cuotas cuyo vencimiento sea “01/02/2014”.
+db.socios.find({ "cuotas.fecha_emision": new Date(2014, 2, 1) }, { socio: 1, nombre: 1, apellido: 1, dni: 1, deportes: 1, _id: 0 });
