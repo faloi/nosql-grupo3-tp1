@@ -6,21 +6,25 @@ var socios = [{
 	direccion: "Pje Bollini 778 - CABA",
 	deportes: ["RUGBY"],
 	cuotas: [{
+		nro_cuota: 1,
 		fecha_emision: new Date(2014, 1, 1),
 		fecha_vencimiento: new Date(2014, 1, 10),
 		importe: 325,
 		fecha_pago: new Date(2014, 1, 7)
 	}, {
+		nro_cuota: 2,
 		fecha_emision: new Date(2014, 2, 1),
 		fecha_vencimiento: new Date(2014, 2, 10),
 		importe: 325,
 		fecha_pago: new Date(2014, 2, 6)
 	}, {
+		nro_cuota: 3,
 		fecha_emision: new Date(2014, 3, 1),
 		fecha_vencimiento: new Date(2014, 3, 10),
 		importe: 325,
 		fecha_pago: new Date(2014, 3, 7)		
 	}, {
+		nro_cuota: 4,
 		fecha_emision: new Date(2014, 4, 1),
 		fecha_vencimiento: new Date(2014, 4, 10),
 		importe: 328		
@@ -33,11 +37,13 @@ var socios = [{
 	direccion: "J. Newbery 4633 - CABA",
 	deportes: ["HOCKEY S/ CESPED", "CESTO BALL"],
 	cuotas: [{
+		nro_cuota: 1,
 		fecha_emision: new Date(2014, 1, 1),
 		fecha_vencimiento: new Date(2014, 1, 10),
 		importe: 325,
 		fecha_pago: new Date(2014, 1, 5)
 	}, {
+		nro_cuota: 2,
 		fecha_emision: new Date(2014, 2, 1),
 		fecha_vencimiento: new Date(2014, 2, 10),
 		importe: 325
@@ -50,16 +56,19 @@ var socios = [{
 	direccion: "B. Mitre 987 9no A - CABA",
 	deportes: ["RUGBY", "TENNIS"],
 	cuotas: [{
+		nro_cuota: 1,
 		fecha_emision: new Date(2014, 1, 1),
 		fecha_vencimiento: new Date(2014, 1, 10),
 		importe: 275,
 		fecha_pago: new Date(2014, 1, 8)
 	}, {
+		nro_cuota: 2,
 		fecha_emision: new Date(2014, 2, 1),
 		fecha_vencimiento: new Date(2014, 2, 10),
 		importe: 275,
 		fecha_pago: new Date(2014, 2, 4)
 	}, {
+		nro_cuota: 3,
 		fecha_emision: new Date(2014, 3, 1),
 		fecha_vencimiento: new Date(2014, 3, 10),
 		importe: 275,
@@ -73,6 +82,7 @@ var socios = [{
 	direccion: "Rojas 1123 11vo 10 - CABA",
 	deportes: ["HOCKEY S/ CESPED"],
 	cuotas: [{
+		nro_cuota: 1,
 		fecha_emision: new Date(2014, 1, 1),
 		fecha_vencimiento: new Date(2014, 1, 10),
 		importe: 275
@@ -85,11 +95,13 @@ var socios = [{
 	direccion: "J. B. Justo 6557 - CABA",
 	deportes: ["RUGBY", "TENNIS"],
 	cuotas: [{
+		nro_cuota: 1,
 		fecha_emision: new Date(2014, 1, 1),
 		fecha_vencimiento: new Date(2014, 1, 10),
 		importe: 325,
 		fecha_pago: new Date(2014, 1, 6)
 	}, {
+		nro_cuota: 2,
 		fecha_emision: new Date(2014, 2, 1),
 		fecha_vencimiento: new Date(2014, 2, 10),
 		importe: 325
