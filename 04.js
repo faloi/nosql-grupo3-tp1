@@ -1,0 +1,1 @@
+db.socios.find({"deportes.nombre":"Rugby"}).pretty();

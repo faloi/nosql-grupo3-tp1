@@ -1,0 +1,1 @@
+db.socios.find().pretty();

@@ -1,0 +1,1 @@
+db.socios.find().limit(5).skip(5).toArray();

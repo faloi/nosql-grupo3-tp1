@@ -1,0 +1,1 @@
+db.socios.find({"cuotas.fechaVencimiento": new ISODate('2014-02-01 00:00:00Z')},{_id:0, nro_socio:1,nombre:1,apellido:1,deportes:1});

@@ -1,0 +1,1 @@
+db.socios.find({codigoInterno:{$exists:true}}).pretty();

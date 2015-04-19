@@ -1,0 +1,1 @@
+db.socios.update({apellido:"Malvasi"},{$pushAll:{deportes:[{nombre:"Golf"},{nombre:"Tennis"}]}},{multi:true});

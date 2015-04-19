@@ -1,0 +1,1 @@
+db.socios.find({nro_socio:{$gt:3},"cuotas.fechaEmision": {$gte: new ISODate('2014-01-01 00:00:00Z')}}).pretty();

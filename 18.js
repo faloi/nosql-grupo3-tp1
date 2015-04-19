@@ -1,0 +1,1 @@
+db.socios.update({apellido:"Valotta"},{$pull:{deportes:{nombre:"Rugby"}}});

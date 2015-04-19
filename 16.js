@@ -1,0 +1,1 @@
+db.socios.update({},{$push:{cuotas:{numero:10,fechaEmision:ISODate('2014-09-01 00:00:00Z'),importe:410,fechaVencimiento:ISODate('2014-09-10 00:00:00Z')}}},{multi:true});

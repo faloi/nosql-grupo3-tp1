@@ -1,0 +1,1 @@
+db.socios.update({$or:[{nro_socio:112323},{nro_socio:114536}]},{$push:{deportes:{nombre:"Golf"}}},{multi:true});
